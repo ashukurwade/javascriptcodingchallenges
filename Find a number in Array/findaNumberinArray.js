@@ -2,7 +2,7 @@
 // return true if the number is in the array otherwise false
 
 function findNumInArray(num, numbers){
-    for(let i=0; i<numbers.lenght; i++){
+    for(let i=0; i<numbers.length; i++){
         if( num == numbers[i]){
             return true;
 
