@@ -4,11 +4,11 @@
 
 function average(numbers){
     let sum = 0;
-    for (let i=0; i<numbers.lenght; i++ ) {
+    for (let i=0; i<numbers.length; i++ ) {
         sum += numbers[i];
 
     }
-    const avg =sum / numbers.lenght;
+    const avg =sum / numbers.length;
     return avg;
 
 }
